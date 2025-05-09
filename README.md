@@ -5,6 +5,7 @@
 
 ## compile and run
 
+for mac
 ```sh
 sh c.sh kawakudari
 ```
@@ -15,12 +16,14 @@ setup [openMSX](https://openmsx.org/) and [z88dk](https://z88dk.org/site/)
 
 ### openMSX
 
+for mac
 ```sh
 brew install openmsx
 ```
 
 ### z88dk
 
+for mac
 ```sh
 cd
 mkdir bin
