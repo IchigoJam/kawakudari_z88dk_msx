@@ -1,5 +1,14 @@
 # kawakudari for z88dk/msx, openMSX
 
+- [kawakudari.rom](https://ichigojam.github.io/kawakudari_z88dk_msx/kawakudari.rom)
+- [RUN on WebMSX/CBIOS](https://webmsx.org/cbios/?ROM=https://ichigojam.github.io/kawakudari_z88dk_msx/kawakudari.rom)
+
+## compile and run
+
+```sh
+sh c.sh kawakudari
+```
+
 ## setup
 
 setup [openMSX](https://openmsx.org/) and [z88dk](https://z88dk.org/site/)
@@ -25,10 +34,4 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # Export z88dk path and environment
 export PATH=${PATH}:${HOME}/bin/z88dk/bin
 export ZCCCFG=${HOME}/bin/z88dk/lib/config
-```
-
-## compile and run
-
-```sh
-sh c.sh kawakudari
 ```
