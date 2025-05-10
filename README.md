@@ -34,13 +34,13 @@ cat >> ~/.zshrc
 # Suppress message about using zsh
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
+# Export z88dk path and environment
+export PATH=${PATH}:${HOME}/bin/z88dk/bin
+export ZCCCFG=${HOME}/bin/z88dk/lib/config
+```
+
 ## related
 
 - [kawakudari original](https://ichigojam.net/IchigoJam-firstgame.pdf)
 - [kawakudari sdcc MSX](https://github.com/ichigojam/kawakudari_sdcc_msx)
 
-
-# Export z88dk path and environment
-export PATH=${PATH}:${HOME}/bin/z88dk/bin
-export ZCCCFG=${HOME}/bin/z88dk/lib/config
-```
